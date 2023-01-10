@@ -1,0 +1,72 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  height: 400px;
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  margin-bottom: 5px;
+}
+.description {
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.container {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.number {
+  height: 50px;
+  width: 50px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.number__value {
+  align-self: center;
+  font-size: 24px;
+}
+
+.button {
+  height: 50px;
+  width: 105px;
+  border: none;
+  border-radius: 6px;
+  background-color: #5035ff;
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Karla", sans-serif;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.counter {
+  max-width: 800px;
+  padding: 10px;
+  color: #59e391;
+  font-size: 12px;
+  margin: auto;
+}
