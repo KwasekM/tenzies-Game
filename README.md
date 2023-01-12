@@ -1,2 +1,2 @@
 # tenzies-Game
-Get all ten of your dice to show the same number
+It's tenzies-Game created in React
